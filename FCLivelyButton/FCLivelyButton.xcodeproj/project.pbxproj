@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32B99461F13592D00F17B84 /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B99441F13592D00F17B84 /* FCViewController.m */; };
+		D32B99471F13592D00F17B84 /* FCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32B99451F13592D00F17B84 /* FCViewController.xib */; };
 		D3A93B4B1F0E2CA600FE1EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A93B4A1F0E2CA600FE1EAF /* main.m */; };
 		D3A93B4E1F0E2CA600FE1EAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A93B4D1F0E2CA600FE1EAF /* AppDelegate.m */; };
-		D3A93B511F0E2CA600FE1EAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A93B501F0E2CA600FE1EAF /* ViewController.m */; };
-		D3A93B541F0E2CA600FE1EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A93B521F0E2CA600FE1EAF /* Main.storyboard */; };
 		D3A93B561F0E2CA600FE1EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A93B551F0E2CA600FE1EAF /* Assets.xcassets */; };
 		D3A93B591F0E2CA600FE1EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A93B571F0E2CA600FE1EAF /* LaunchScreen.storyboard */; };
+		D3A93B631F0E315600FE1EAF /* FCLivelyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A93B621F0E315600FE1EAF /* FCLivelyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D32B99431F13592D00F17B84 /* FCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
+		D32B99441F13592D00F17B84 /* FCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		D32B99451F13592D00F17B84 /* FCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCViewController.xib; sourceTree = "<group>"; };
 		D3A93B461F0E2CA600FE1EAF /* FCLivelyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCLivelyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A93B4A1F0E2CA600FE1EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3A93B4C1F0E2CA600FE1EAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3A93B4D1F0E2CA600FE1EAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3A93B4F1F0E2CA600FE1EAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3A93B501F0E2CA600FE1EAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3A93B531F0E2CA600FE1EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3A93B551F0E2CA600FE1EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A93B581F0E2CA600FE1EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A93B5A1F0E2CA600FE1EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A93B611F0E315600FE1EAF /* FCLivelyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCLivelyButton.h; sourceTree = "<group>"; };
+		D3A93B621F0E315600FE1EAF /* FCLivelyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCLivelyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32B993B1F13585800F17B84 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D32B99431F13592D00F17B84 /* FCViewController.h */,
+				D32B99441F13592D00F17B84 /* FCViewController.m */,
+				D32B99451F13592D00F17B84 /* FCViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		D3A93B3D1F0E2CA600FE1EAF = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +73,8 @@
 			children = (
 				D3A93B4C1F0E2CA600FE1EAF /* AppDelegate.h */,
 				D3A93B4D1F0E2CA600FE1EAF /* AppDelegate.m */,
-				D3A93B4F1F0E2CA600FE1EAF /* ViewController.h */,
-				D3A93B501F0E2CA600FE1EAF /* ViewController.m */,
-				D3A93B521F0E2CA600FE1EAF /* Main.storyboard */,
-				D3A93B551F0E2CA600FE1EAF /* Assets.xcassets */,
-				D3A93B571F0E2CA600FE1EAF /* LaunchScreen.storyboard */,
-				D3A93B5A1F0E2CA600FE1EAF /* Info.plist */,
+				D3A93B601F0E314300FE1EAF /* FCLivelyButton */,
+				D32B993B1F13585800F17B84 /* Demo */,
 				D3A93B491F0E2CA600FE1EAF /* Supporting Files */,
 			);
 			path = FCLivelyButton;
@@ -74,9 +83,21 @@
 		D3A93B491F0E2CA600FE1EAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3A93B551F0E2CA600FE1EAF /* Assets.xcassets */,
+				D3A93B571F0E2CA600FE1EAF /* LaunchScreen.storyboard */,
+				D3A93B5A1F0E2CA600FE1EAF /* Info.plist */,
 				D3A93B4A1F0E2CA600FE1EAF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3A93B601F0E314300FE1EAF /* FCLivelyButton */ = {
+			isa = PBXGroup;
+			children = (
+				D3A93B611F0E315600FE1EAF /* FCLivelyButton.h */,
+				D3A93B621F0E315600FE1EAF /* FCLivelyButton.m */,
+			);
+			path = FCLivelyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,11 +126,13 @@
 		D3A93B3E1F0E2CA600FE1EAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FC;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "付晨曦";
 				TargetAttributes = {
 					D3A93B451F0E2CA600FE1EAF = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3AFVQ8GKPH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32B99471F13592D00F17B84 /* FCViewController.xib in Resources */,
 				D3A93B591F0E2CA600FE1EAF /* LaunchScreen.storyboard in Resources */,
 				D3A93B561F0E2CA600FE1EAF /* Assets.xcassets in Resources */,
-				D3A93B541F0E2CA600FE1EAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +173,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A93B511F0E2CA600FE1EAF /* ViewController.m in Sources */,
+				D3A93B631F0E315600FE1EAF /* FCLivelyButton.m in Sources */,
 				D3A93B4E1F0E2CA600FE1EAF /* AppDelegate.m in Sources */,
 				D3A93B4B1F0E2CA600FE1EAF /* main.m in Sources */,
+				D32B99461F13592D00F17B84 /* FCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3A93B521F0E2CA600FE1EAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3A93B531F0E2CA600FE1EAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3A93B571F0E2CA600FE1EAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -274,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AFVQ8GKPH;
 				INFOPLIST_FILE = FCLivelyButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.FCLivelyButton;
@@ -285,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AFVQ8GKPH;
 				INFOPLIST_FILE = FCLivelyButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.FCLivelyButton;
@@ -311,6 +329,7 @@
 				D3A93B5F1F0E2CA600FE1EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

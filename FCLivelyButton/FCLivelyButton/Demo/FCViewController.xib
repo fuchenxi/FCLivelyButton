@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FCSecondViewController">
+            <connections>
+                <outlet property="arrowLeftBtn" destination="Qk5-Nn-OWY" id="AV2-ge-ORh"/>
+                <outlet property="arrowRightBtn" destination="1ea-Ci-QNc" id="GRU-q4-bQz"/>
+                <outlet property="careDownBtn" destination="QkQ-u0-Zcm" id="OR3-yw-ycR"/>
+                <outlet property="caretLeftBtn" destination="cKp-Ig-Ak8" id="V9c-YC-iYi"/>
+                <outlet property="caretRightBtn" destination="NDE-MB-VAD" id="L4N-Ss-mw2"/>
+                <outlet property="caretUpBtn" destination="6Qa-pH-ADm" id="ZHe-wM-zpF"/>
+                <outlet property="changeBtn" destination="vrz-4u-pma" id="eWF-vw-omI"/>
+                <outlet property="circleCloseBtn" destination="oSd-ae-a2F" id="Xkl-kF-9cd"/>
+                <outlet property="circlePlusBtn" destination="DfX-kq-O8v" id="2mO-J5-pQq"/>
+                <outlet property="closeBtn" destination="v1N-J7-G4p" id="pa8-nZ-fFa"/>
+                <outlet property="hamburgerBtn" destination="aor-lh-UUU" id="uLY-4a-Qpg"/>
+                <outlet property="plusBtn" destination="Zdr-bR-6Xe" id="qab-Bn-yLP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aor-lh-UUU" userLabel="Hamburger" customClass="FCLivelyButton">
+                    <rect key="frame" x="47" y="100" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="Ovv-1T-P74"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1N-J7-G4p" userLabel="Colse" customClass="FCLivelyButton">
+                    <rect key="frame" x="106" y="100" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="HTo-Qs-55h"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSd-ae-a2F" userLabel="CircleClose" customClass="FCLivelyButton">
+                    <rect key="frame" x="165" y="100" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="BQ1-jg-Rlg"/>
+                        <constraint firstAttribute="height" constant="44" id="lwc-X8-W1x"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="wy0-Qe-aMb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdr-bR-6Xe" userLabel="Plus" customClass="FCLivelyButton">
+                    <rect key="frame" x="224" y="100" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="xbW-8S-169"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-kq-O8v" userLabel="CirclePlus" customClass="FCLivelyButton">
+                    <rect key="frame" x="283" y="100" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="dlh-hl-jBA"/>
+                        <constraint firstAttribute="height" constant="44" id="tO0-Cu-Ogf"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="Haq-9y-41y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qa-pH-ADm" userLabel="CaretUp" customClass="FCLivelyButton">
+                    <rect key="frame" x="47" y="174" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="Ys7-b6-msL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkQ-u0-Zcm" userLabel="CaretDown" customClass="FCLivelyButton">
+                    <rect key="frame" x="106" y="174" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="Kei-6h-hag"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKp-Ig-Ak8" userLabel="CaretLeft" customClass="FCLivelyButton">
+                    <rect key="frame" x="165" y="174" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="LhH-i2-gsc"/>
+                        <constraint firstAttribute="height" constant="44" id="iTS-Ue-J1N"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="Tdt-Ql-ABR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDE-MB-VAD" userLabel="CaretRight" customClass="FCLivelyButton">
+                    <rect key="frame" x="224" y="174" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="SWl-ud-LRj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qk5-Nn-OWY" userLabel="ArrowLeft" customClass="FCLivelyButton">
+                    <rect key="frame" x="283" y="174" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="cZZ-1F-ya8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ea-Ci-QNc" userLabel="ArrowRight" customClass="FCLivelyButton">
+                    <rect key="frame" x="283" y="248" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="changeButtonStyle:" destination="-1" eventType="touchUpInside" id="ZIJ-53-lCh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrz-4u-pma" userLabel="Change" customClass="FCLivelyButton">
+                    <rect key="frame" x="145" y="329" width="84" height="84"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="84" id="247-Yo-Pl5"/>
+                        <constraint firstAttribute="width" constant="84" id="JUV-Au-ffH"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="8" maxX="5" maxY="8"/>
+                    <connections>
+                        <action selector="buttonEvent:" destination="-1" eventType="touchUpInside" id="HbB-uD-mVJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.61360677083333337" green="0.93996853298611116" blue="0.73030598958333337" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="DfX-kq-O8v" firstAttribute="width" secondItem="aor-lh-UUU" secondAttribute="width" id="0am-4r-bgp"/>
+                <constraint firstItem="1ea-Ci-QNc" firstAttribute="width" secondItem="Qk5-Nn-OWY" secondAttribute="width" id="1Ge-Y6-5QR"/>
+                <constraint firstItem="oSd-ae-a2F" firstAttribute="leading" secondItem="v1N-J7-G4p" secondAttribute="trailing" constant="15" id="1YJ-bU-97j"/>
+                <constraint firstItem="DfX-kq-O8v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="5O1-wu-p5z"/>
+                <constraint firstItem="Qk5-Nn-OWY" firstAttribute="width" secondItem="NDE-MB-VAD" secondAttribute="width" id="8dK-6X-WpC"/>
+                <constraint firstItem="v1N-J7-G4p" firstAttribute="leading" secondItem="aor-lh-UUU" secondAttribute="trailing" constant="15" id="A0F-pH-0v6"/>
+                <constraint firstItem="vrz-4u-pma" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Bwe-9e-hps"/>
+                <constraint firstItem="DfX-kq-O8v" firstAttribute="leading" secondItem="Zdr-bR-6Xe" secondAttribute="trailing" constant="15" id="JSB-cF-C8n"/>
+                <constraint firstItem="cKp-Ig-Ak8" firstAttribute="centerX" secondItem="oSd-ae-a2F" secondAttribute="centerX" id="JgP-73-KmI"/>
+                <constraint firstItem="6Qa-pH-ADm" firstAttribute="height" secondItem="cKp-Ig-Ak8" secondAttribute="height" id="JxC-5a-Qad"/>
+                <constraint firstItem="QkQ-u0-Zcm" firstAttribute="height" secondItem="cKp-Ig-Ak8" secondAttribute="height" id="KvV-NV-ktV"/>
+                <constraint firstItem="v1N-J7-G4p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Loh-2z-Il2"/>
+                <constraint firstItem="Zdr-bR-6Xe" firstAttribute="height" secondItem="aor-lh-UUU" secondAttribute="height" id="MYh-NJ-g9Z"/>
+                <constraint firstItem="1ea-Ci-QNc" firstAttribute="centerX" secondItem="Qk5-Nn-OWY" secondAttribute="centerX" id="RFS-rc-RGw"/>
+                <constraint firstItem="NDE-MB-VAD" firstAttribute="top" secondItem="cKp-Ig-Ak8" secondAttribute="top" id="Vre-bS-Wun"/>
+                <constraint firstItem="6Qa-pH-ADm" firstAttribute="top" secondItem="cKp-Ig-Ak8" secondAttribute="top" id="ZrX-ml-CL2"/>
+                <constraint firstItem="oSd-ae-a2F" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cJE-oH-jls"/>
+                <constraint firstItem="6Qa-pH-ADm" firstAttribute="width" secondItem="cKp-Ig-Ak8" secondAttribute="width" id="cp1-n2-SLa"/>
+                <constraint firstItem="cKp-Ig-Ak8" firstAttribute="top" secondItem="oSd-ae-a2F" secondAttribute="bottom" constant="30" id="dFp-Wv-Cj6"/>
+                <constraint firstItem="1ea-Ci-QNc" firstAttribute="height" secondItem="Qk5-Nn-OWY" secondAttribute="height" id="eOs-NX-wDT"/>
+                <constraint firstItem="vrz-4u-pma" firstAttribute="top" secondItem="NDE-MB-VAD" secondAttribute="bottom" constant="111" id="fKn-gx-ha6"/>
+                <constraint firstItem="Qk5-Nn-OWY" firstAttribute="height" secondItem="NDE-MB-VAD" secondAttribute="height" id="gTe-Zs-paz"/>
+                <constraint firstItem="QkQ-u0-Zcm" firstAttribute="width" secondItem="cKp-Ig-Ak8" secondAttribute="width" id="hop-Hd-HdO"/>
+                <constraint firstItem="QkQ-u0-Zcm" firstAttribute="top" secondItem="cKp-Ig-Ak8" secondAttribute="top" id="idD-za-EMJ"/>
+                <constraint firstItem="1ea-Ci-QNc" firstAttribute="top" secondItem="Qk5-Nn-OWY" secondAttribute="bottom" constant="30" id="ijc-yP-60J"/>
+                <constraint firstItem="Zdr-bR-6Xe" firstAttribute="width" secondItem="aor-lh-UUU" secondAttribute="width" id="isq-Df-ZeL"/>
+                <constraint firstItem="DfX-kq-O8v" firstAttribute="height" secondItem="aor-lh-UUU" secondAttribute="height" id="jMG-hA-4rg"/>
+                <constraint firstItem="Zdr-bR-6Xe" firstAttribute="leading" secondItem="oSd-ae-a2F" secondAttribute="trailing" constant="15" id="k3f-mU-w8Q"/>
+                <constraint firstItem="NDE-MB-VAD" firstAttribute="height" secondItem="cKp-Ig-Ak8" secondAttribute="height" id="lWg-9r-dpu"/>
+                <constraint firstItem="Qk5-Nn-OWY" firstAttribute="top" secondItem="NDE-MB-VAD" secondAttribute="top" id="lm9-F2-Vr5"/>
+                <constraint firstItem="v1N-J7-G4p" firstAttribute="height" secondItem="aor-lh-UUU" secondAttribute="height" id="oHM-aB-yJi"/>
+                <constraint firstItem="aor-lh-UUU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="qeP-9s-PJq"/>
+                <constraint firstItem="6Qa-pH-ADm" firstAttribute="centerX" secondItem="aor-lh-UUU" secondAttribute="centerX" id="rnJ-ou-fJ6"/>
+                <constraint firstItem="v1N-J7-G4p" firstAttribute="width" secondItem="aor-lh-UUU" secondAttribute="width" id="syr-li-IL5"/>
+                <constraint firstItem="QkQ-u0-Zcm" firstAttribute="centerX" secondItem="v1N-J7-G4p" secondAttribute="centerX" id="uhS-Kl-BJh"/>
+                <constraint firstItem="Zdr-bR-6Xe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="vJG-0X-gtd"/>
+                <constraint firstItem="Qk5-Nn-OWY" firstAttribute="centerX" secondItem="DfX-kq-O8v" secondAttribute="centerX" id="voU-bH-kxB"/>
+                <constraint firstItem="NDE-MB-VAD" firstAttribute="centerX" secondItem="Zdr-bR-6Xe" secondAttribute="centerX" id="wbd-Jv-Zad"/>
+                <constraint firstItem="NDE-MB-VAD" firstAttribute="width" secondItem="cKp-Ig-Ak8" secondAttribute="width" id="ws2-qt-4KX"/>
+                <constraint firstItem="oSd-ae-a2F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="xuw-gB-uVZ"/>
+            </constraints>
+            <point key="canvasLocation" x="226" y="-149"/>
+        </view>
+    </objects>
+</document>
